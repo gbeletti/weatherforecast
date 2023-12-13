@@ -1,0 +1,25 @@
+version: '3'
+
+tasks:
+  # Checks that currently running in test environment
+  checkenv:
+    preconditions:
+      - sh: case {{.env}} in ".test.env"|".local.env") exit 0;; *) exit 1;; esac
+  init:
+    cmds:
+    - task: :docker:postgres-up
+    - task: :db:migrate-up-all
+  migrate-up-all:
+    cmds:
+      - set -a; source {{.env}} && go run persistence/scripts/postgres/migrate.go persistence/migrations up
+  # Migrate up one: task db:migrate-step env=.local.env -- 1
+  # Migrate down one: task db:migrate-step env=.local.env -- -1
+  migrate-step:
+    cmds:
+      - set -a; source {{.env}} && go run persistence/scripts/postgres/migrate.go persistence/migrations step {{.CLI_ARGS}}
+  migrate-down-all:
+    cmds:
+      - set -a; source {{.env}} && go run persistence/scripts/postgres/migrate.go persistence/migrations down
+  migrate-force:
+    cmds:
+      - set -a; source {{.env}} && go run persistence/scripts/postgres/migrate.go persistence/migrations force {{.CLI_ARGS}}

@@ -1,0 +1,176 @@
+[
+	{
+		"Date": "2023-12-09T00:00:00Z",
+		"WindSpeed": 31.7,
+		"WindDirection": 180,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T01:00:00Z",
+		"WindSpeed": 28.1,
+		"WindDirection": 181,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T02:00:00Z",
+		"WindSpeed": 25.3,
+		"WindDirection": 184,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T03:00:00Z",
+		"WindSpeed": 23.8,
+		"WindDirection": 178,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T04:00:00Z",
+		"WindSpeed": 22,
+		"WindDirection": 182,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T05:00:00Z",
+		"WindSpeed": 19.5,
+		"WindDirection": 185,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T06:00:00Z",
+		"WindSpeed": 17.3,
+		"WindDirection": 179,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T07:00:00Z",
+		"WindSpeed": 18.9,
+		"WindDirection": 172,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T08:00:00Z",
+		"WindSpeed": 19.6,
+		"WindDirection": 167,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T09:00:00Z",
+		"WindSpeed": 18.6,
+		"WindDirection": 165,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T10:00:00Z",
+		"WindSpeed": 18.1,
+		"WindDirection": 163,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T11:00:00Z",
+		"WindSpeed": 18.4,
+		"WindDirection": 157,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T12:00:00Z",
+		"WindSpeed": 19,
+		"WindDirection": 151,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-09T13:00:00Z",
+		"WindSpeed": 20.7,
+		"WindDirection": 145,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-09T14:00:00Z",
+		"WindSpeed": 20.7,
+		"WindDirection": 139,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T08:00:00Z",
+		"WindSpeed": 25.1,
+		"WindDirection": 159,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T09:00:00Z",
+		"WindSpeed": 31.9,
+		"WindDirection": 130,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T12:00:00Z",
+		"WindSpeed": 25.2,
+		"WindDirection": 132,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T13:00:00Z",
+		"WindSpeed": 22.5,
+		"WindDirection": 139,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T14:00:00Z",
+		"WindSpeed": 22.5,
+		"WindDirection": 140,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T15:00:00Z",
+		"WindSpeed": 24.1,
+		"WindDirection": 142,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T16:00:00Z",
+		"WindSpeed": 24.2,
+		"WindDirection": 143,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T17:00:00Z",
+		"WindSpeed": 24.3,
+		"WindDirection": 145,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T18:00:00Z",
+		"WindSpeed": 23.6,
+		"WindDirection": 146,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T19:00:00Z",
+		"WindSpeed": 23.5,
+		"WindDirection": 148,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T20:00:00Z",
+		"WindSpeed": 22.4,
+		"WindDirection": 143,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T21:00:00Z",
+		"WindSpeed": 20.9,
+		"WindDirection": 139,
+		"Alert": true
+	},
+	{
+		"Date": "2023-12-11T22:00:00Z",
+		"WindSpeed": 17.6,
+		"WindDirection": 137,
+		"Alert": false
+	},
+	{
+		"Date": "2023-12-11T23:00:00Z",
+		"WindSpeed": 15.7,
+		"WindDirection": 143,
+		"Alert": false
+	}
+]

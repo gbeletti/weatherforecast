@@ -1,0 +1,5 @@
+version: '3'
+
+tasks:
+  server:
+    cmd: set -a; source .{{.CLI_ARGS}}.env && go run cmd/server/main.go

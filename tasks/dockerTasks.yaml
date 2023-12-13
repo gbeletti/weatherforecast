@@ -1,0 +1,19 @@
+version: '3'
+
+tasks:
+  checkenv:
+    preconditions:
+      - sh: case {{.env}} in ".test.env"|".local.env") exit 0;; *) exit 1;; esac
+  postgres-pull:
+    cmds:
+      - docker pull postgres:16
+  postgres-down:
+    cmds:
+      - docker kill pg-forecast
+    ignore_error: true
+  postgres-up:
+    deps: [checkenv]
+    cmds:
+      - cmd: set -a; source {{.env}} && docker run --rm --name pg-forecast -p 5432:5432 -e POSTGRES_PASSWORD=$DBPASSWORD -e POSTGRES_DB=$DATABASE -d postgres:16
+        ignore_error: true
+      - cmd: timeout 20s bash -c "until docker exec pg-forecast pg_isready ; do sleep 5 ; done"

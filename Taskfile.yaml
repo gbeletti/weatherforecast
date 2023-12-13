@@ -1,0 +1,8 @@
+version: '3'
+
+includes:
+  docker: ./tasks/dockerTasks.yaml
+  db: ./tasks/databaseTasks.yaml
+  test: ./tasks/testTasks.yaml
+  run: ./tasks/runTasks.yaml
+  linter: ./tasks/linterTasks.yaml

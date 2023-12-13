@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  gosec:
+    cmds:
+      - gosec ./...
+  govulncheck:
+    cmds:
+      - govulncheck ./...
+  golangci-lint:
+    cmds:
+      - golangci-lint run ./...
+  all:
+    cmds:
+      - task: :linter:gosec
+      - task: :linter:govulncheck
+      - task: :linter:golangci-lint
